@@ -1,0 +1,159 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-26T00:31:52.366Z",
+        "line": 8,
+        "name": "Deve inserir uma conta com sucesso",
+        "description": "",
+        "id": "cadastro-de-contas;deve-inserir-uma-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 5259741700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou acessando a aplicacao",
+            "match": {
+              "location": "steps.InserirContaSteps.queEstouAcessandoAAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 104263500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "informo o usuario \"leticiaperetti@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"leticiaperetti@hotmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.InserirContaSteps.informoOUsuario(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 63136500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a senha \"741123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"741123\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.InserirContaSteps.aSenha(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "steps.InserirContaSteps.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "visualizo a pagina inicial",
+            "match": {
+              "location": "steps.InserirContaSteps.visualizoAPaginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "steps.InserirContaSteps.selecionoContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "steps.InserirContaSteps.selecionoAdicionar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "informo a conta \"Conta de Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conta de Teste\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.InserirContaSteps.informoAConta(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "steps.InserirContaSteps.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 771217800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a conta e inserida com sucesso",
+            "match": {
+              "location": "steps.InserirContaSteps.aContaEInseridaComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "Como um usuario\nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/Feature/inserir_conta.feature",
+    "tags": []
+  }
+]
